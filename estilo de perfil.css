@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Style the body */
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+  
+  /* Header/logo Title */
+  .header {
+    padding: 80px;
+    text-align: center;
+    background:#940002;
+    color: white;
+    
+  }
+  
+  
+  /* Increase the font size of the heading */
+  .header h1 {
+    font-size: 40px;
+  }
+  
+  /* Style the top navigation bar */
+  .navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  /* Style the navigation bar links */
+  .navbar a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  
+
+  /* Right-aligned link */
+  .navbar a.right {
+    float: right;
+  }
+  
+  /* Change color on hover */
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Column container */
+  .row {  
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* Create two unequal columns that sits next to each other */
+  /* Sidebar/left column */
+ .side {  
+    flex: 30%;
+    background-color: rgb(240, 26, 26);
+    padding: 40px;
+  }
+  
+  /* Main column */
+  .main {   
+    flex: 70%;
+    background-color: inherit;
+    padding: 20px;
+  }
+  
+   /* Footer */
+   .footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+  }
+
+ 
